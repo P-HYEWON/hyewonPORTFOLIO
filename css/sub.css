@@ -1,0 +1,335 @@
+@charset"utf-8";
+
+#wrap{
+    font-family: "Score";
+    font-weight: 300;
+    overflow: hidden;
+}
+
+#header{
+}
+.ball{
+    background: url(../images/main/ball002.png) no-repeat center center;
+    width: 1306px;
+    height: 1306px;
+    z-index: -10;
+    position: absolute;
+    top: -500px;
+    left: -600px;
+    text-indent: -9999px;
+}
+.ball02{
+    background: url(../images/main/ball002.png) no-repeat center center;
+    width: 1306px;
+    height: 1306px;
+    z-index: -10;
+    position: absolute;
+    bottom: -700px;
+    text-indent: -9999px;
+    right: -400px;
+}
+.homeBtn{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    animation: homeBtn 0.8s infinite linear alternate;
+    z-index: 10;
+}
+@keyframes homeBtn{
+    from{bottom: 100px}
+    to{bottom: 110px}
+}
+.homeBtn a{
+}
+.homeBtn img{width: 43px;}
+.homeBtn p{
+    font-size: 11px;
+    text-align: center;
+    bottom: 100px;
+}
+/*
+       animation: sect01Ball01 1s infinite linear alternate;
+    animation-delay: 4s;
+}
+@keyframes sect01Ball01{
+    from{top: -150px}
+    to{top: -180px}
+}
+
+*/
+
+
+#container{position: relative;}
+h2{
+    font-family: "Score";
+    font-weight: 600;
+    font-size: 35px;
+}
+
+/*자기소개*/
+.introduce{
+    position: relative;
+    margin-top: 100px;
+}
+.introduce>img{}
+.introBox{
+    position: absolute;
+    top: -180px;
+    left: 650px;
+}
+.introBox>img{width: 520px;}
+.bar{
+    position: absolute;
+    top: 295px;
+    right: 110px;
+    width: 800px;
+}
+.introBox h2{
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.introBox p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.introBox span{
+    display: block;
+    padding-top: 15px;
+}
+
+/*스킬*/
+.skill{position: relative;}
+.skill>img{
+    padding: 200px 0;
+}
+.skillList{}
+.skill{
+    font-size: 13px;
+}
+.skillList{
+    position: absolute;
+    top: -380px;
+    right: -30px;
+}
+.skillList li{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 580px;
+    background: #f1f1f1;
+    margin-top: 20px;
+}
+.skillList p{
+    padding-left: 20px;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    background: #182940;
+}
+.ps{}
+.ps p{
+    animation: ps 1.5s ease-out;
+    width: 90%;
+}
+@keyframes ps 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 90%; 
+    } 
+}
+
+.skillList span{
+    font-size: 12px;
+    position: absolute;
+    right: 6px;
+    top: 1px;
+    color: #333;
+}
+
+.ai p{
+    animation: ai 1.5s ease-out ;
+    width: 85%;
+}
+@keyframes ai 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 85%; 
+    } 
+}
+
+.html p{
+    animation: html 1.5s ease-out;
+    width: 80%;
+}
+@keyframes html 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 80%; 
+    } 
+}
+
+.css p{
+    animation: css 1.5s ease-out;
+    width: 80%;
+}
+@keyframes css 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 80%; 
+    } 
+}
+
+.js p{
+    animation: js 1.5s ease-out;
+    width: 60%;
+}
+@keyframes js 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 60%; 
+    } 
+}
+
+.jq p{
+    animation: jq 1.5s ease-out ;
+    width: 60%;
+}
+@keyframes jq 
+    { 0% { 
+        width: 0%; 
+    } 
+    100%{ 
+        width: 60%; 
+    } 
+}
+
+
+
+/*에듀케이션*/
+.education{
+    position: relative;
+}
+.eduBox{
+    padding-top: 20px;
+    position: absolute;
+    top: -800px;
+    right: 93px;
+}
+.eduBox h2{
+    padding-bottom: 20px;
+}
+.eduBox p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+/*모토*/
+.moto{
+    position: relative;
+}
+.moto>img{}
+.motoBox{
+    padding-top: 40px;
+    position: absolute;
+    top: -530px;
+    right: 118px;
+}
+.motoBox h2{
+    padding-bottom: 20px;
+}
+.motoBox p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.motoBox span{
+    display: block;
+    margin-top: 10px;
+}
+
+.last{}
+.TxtBox{
+    position: absolute;
+    top: 60px;
+    right: -30px;
+}
+.TxtBox h2{}
+.TxtBox>h2::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 30px;
+    background: #4f4f4f;
+    margin-bottom: 20px;
+}
+.TxtBox p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.Txt02{padding-top: 20px;}
+.TxtBox span{
+    display: block;
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact{
+    padding-top: 100px;
+}
+.contact h2{
+    padding-bottom: 20px;
+}
+.contact p{}
+
+#footer{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: #fff;
+}
+
+
+.fBox{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 90px;
+}
+.fBox img{width: 90px;}
+.fBox p{padding-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

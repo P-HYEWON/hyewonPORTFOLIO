@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+a{outline: none;}
+.slick-initialized .slick-slide{outline: none;}
+.slick-slide{outline: none;}
+
+.section02 .prevArrow img{
+    width: 100px;
+}
+
+
